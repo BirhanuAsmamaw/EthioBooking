@@ -1,9 +1,11 @@
 import React from 'react';
 import "./hotel.css"
+import Header from '../../components/header/Header';
 
 function Hotel() {
   return <div>
-    Hotel
+    <Header  />
+    hotel
   </div>;
 }
 
