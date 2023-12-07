@@ -6,22 +6,28 @@ import { useState } from "react";
 import { format } from "date-fns";
 import { DateRange } from "react-date-range";
 import SearchItem from "../../components/searchItem/SearchItem";
+import MailList from "../../components/mailList/MailList";
+import Footer from "../../components/footer/Footer";
 
+const hotels = ["AA - Sheraton.webp","AA-intercontinental.jpg",
+                "Adma-MARRAKECH.jpg","Axum-Axum-Hotel.jpg",
+                "Bd-NileView.jpg","Hawassa-HaileResort.jpg",
+                "Gondar-Goha.jpg","DebreTabor-Hibret.jpg.crdownload"]
 
 const List = () => {
   
   const location = useLocation()
-  const [destination, setDestination] = useState(location.state.destination);
-  const [date, setDate] = useState(location.state.date);
+  const [destination, setDestination] = useState(location.state?.destination);
+  const [date, setDate] = useState(location.state?.date);
   const [openDate, setOpenDate] = useState(false);
-  const [options, setOptions] = useState(location.state.options);
+  const [options, setOptions] = useState(location.state?.options);
 
 
 
   return (
     <div>
       {/* <Navbar/> */}
-      <Header />
+      <Header type={"list"}/>
       <div className="listContainer">
         <div className="listWrapper">
           <div className="listSearch">
@@ -32,11 +38,11 @@ const List = () => {
             </div>
             <div className="lsItem">
               <label > Check-in Date</label>
-              <span onClick={() => setOpenDate(!openDate)}>{`${format(
+              {date ?( <span onClick={() => setOpenDate(!openDate)}>{`${format(
                   date[0].startDate,
                   "MM/dd/yyyy"
-                )} to ${format(date[0].endDate, "MM/dd/yyyy")}`}
-              </span>
+                )} to ${format( date[0].endDate, "MM/dd/yyyy")}`}
+              </span>): null}
               {openDate && (
                 <DateRange
                   onChange={(item) => setDate([item.selection])}
@@ -66,7 +72,7 @@ const List = () => {
                     type="number"
                     min={1}
                     className="lsOptionInput"
-                    placeholder={options.adult}
+                    placeholder={options?.adult}
                   />
                 </div>
                 <div className="lsOptionItem">
@@ -75,7 +81,7 @@ const List = () => {
                     type="number"
                     min={0}
                     className="lsOptionInput"
-                    placeholder={options.children}
+                    placeholder={options?.children}
                   />
                 </div>
                 <div className="lsOptionItem">
@@ -84,7 +90,7 @@ const List = () => {
                     type="number"
                     min={1}
                     className="lsOptionInput"
-                    placeholder={options.room}
+                    placeholder={options?.room}
                   />
                 </div>
               </div>
@@ -92,19 +98,14 @@ const List = () => {
             <button>Search</button>
           </div>
           <div className="listResult">
-            <SearchItem/>
-            <SearchItem/>
-            <SearchItem/>
-            <SearchItem/>
-            <SearchItem/>
-            <SearchItem/>
-            <SearchItem/>
-            <SearchItem/>
-          </div>
+              {hotels.map((hotel) => (
+                <SearchItem image={hotel} />
+              ))}
+            </div>
         </div>
       </div>
-      
-      
+      <MailList />
+      <Footer />
     </div>
   )
 }
