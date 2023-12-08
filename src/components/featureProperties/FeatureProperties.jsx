@@ -4,45 +4,46 @@ const FeatureProperties = () => {
     return (
         <div className="fp">
             <div className="fpItem">
-                <img src="/assets/F1.webp" alt="" className="fpImg" /> 
-                <span className="fpName">Hibret Beandnet</span>
+                <img src="/assets/AA - Sheraton.webp" alt="" className="fpImg" /> 
+                <span className="fpName">sheraton Addis hotel</span>
+                <span className="fpCity">Addis Ababa</span>
+                <span className="fpPrice">Starting from <b>ETB 1500</b></span>
+                <div className="fpRating">
+                    <button>9</button>
+                    <span>Excellent</span>
+                </div>
+            </div>
+            <div className="fpItem">
+                <img src="/assets/Hawassa-HaileResort.jpg" alt="" className="fpImg" /> 
+                <span className="fpName">Haile Resort</span>
+                <span className="fpCity">Hawassa</span>
+                <span className="fpPrice">Starting from <b>ETB 1400</b></span>
+                <div className="fpRating">
+                    <button>8</button>
+                    <span>Excellent</span>
+                </div>
+            </div>
+            <div className="fpItem">
+                <img src="/assets/Ruth Hotel.jpg" alt="" className="fpImg" /> 
+                <span className="fpName">Ruth Hotel</span>
                 <span className="fpCity">Gondar</span>
-                <span className="fpPrice">Starting from $100</span>
+                <span className="fpPrice">Starting from <b>ETB 1300</b></span>
                 <div className="fpRating">
                     <button>7</button>
                     <span>Excellent</span>
                 </div>
             </div>
             <div className="fpItem">
-                <img src="/assets/F1.webp" alt="" className="fpImg" /> 
-                <span className="fpName">Hibret Beandnet</span>
-                <span className="fpCity">Gondar</span>
-                <span className="fpPrice">Starting from $100</span>
+                <img src="/assets/Adma-MARRAKECH.jpg" alt="" className="fpImg" /> 
+                <span className="fpName">MARRAKECH</span>
+                <span className="fpCity">Adama</span>
+                <span className="fpPrice">Starting from <b>ETB 1200</b></span>
                 <div className="fpRating">
                     <button>7</button>
                     <span>Excellent</span>
                 </div>
             </div>
-            <div className="fpItem">
-                <img src="/assets/F1.webp" alt="" className="fpImg" /> 
-                <span className="fpName">Hibret Beandnet</span>
-                <span className="fpCity">Gondar</span>
-                <span className="fpPrice">Starting from $100</span>
-                <div className="fpRating">
-                    <button>7</button>
-                    <span>Excellent</span>
-                </div>
-            </div>
-            <div className="fpItem">
-                <img src="/assets/F1.webp" alt="" className="fpImg" /> 
-                <span className="fpName">Hibret Beandnet</span>
-                <span className="fpCity">Gondar</span>
-                <span className="fpPrice">Starting from $100</span>
-                <div className="fpRating">
-                    <button>7</button>
-                    <span>Excellent</span>
-                </div>
-            </div>
+            
                
         </div>
         
