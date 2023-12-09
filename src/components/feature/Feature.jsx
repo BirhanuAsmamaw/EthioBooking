@@ -16,14 +16,14 @@ const Feature = () => {
              <img src="/assets/Hawassa.jpg" alt="" className="featureImg" />
              <div className="featureTitles">
               <h1>Hawassa</h1>  
-              <h2>128 properties</h2>
+              <h2>168 properties</h2>
              </div>
             </div>
             <div className="featureItem">
              <img src="/assets/kuriftu-Bishoftu.jpg" alt="" className="featureImg" />
              <div className="featureTitles">
               <h1>Bishoftu</h1>  
-              <h2>140 properties</h2>
+              <h2>180 properties</h2>
              </div>
             </div>
         </div>

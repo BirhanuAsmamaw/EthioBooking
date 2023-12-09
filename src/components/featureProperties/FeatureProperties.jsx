@@ -9,7 +9,7 @@ const FeatureProperties = () => {
                 <span className="fpCity">Addis Ababa</span>
                 <span className="fpPrice">Starting from <b>ETB 1500</b></span>
                 <div className="fpRating">
-                    <button>9</button>
+                    <button className="fpRatingButton">9</button>
                     <span>Excellent</span>
                 </div>
             </div>
@@ -19,7 +19,7 @@ const FeatureProperties = () => {
                 <span className="fpCity">Hawassa</span>
                 <span className="fpPrice">Starting from <b>ETB 1400</b></span>
                 <div className="fpRating">
-                    <button>8</button>
+                    <button className="fpRatingButton">8</button>
                     <span>Excellent</span>
                 </div>
             </div>
@@ -29,8 +29,8 @@ const FeatureProperties = () => {
                 <span className="fpCity">Gondar</span>
                 <span className="fpPrice">Starting from <b>ETB 1300</b></span>
                 <div className="fpRating">
-                    <button>7</button>
-                    <span>Excellent</span>
+                    <button className="fpRatingButton">7</button>
+                    <span >Excellent</span>
                 </div>
             </div>
             <div className="fpItem">
@@ -39,7 +39,7 @@ const FeatureProperties = () => {
                 <span className="fpCity">Adama</span>
                 <span className="fpPrice">Starting from <b>ETB 1200</b></span>
                 <div className="fpRating">
-                    <button>7</button>
+                    <button className="fpRatingButton">7</button>
                     <span>Excellent</span>
                 </div>
             </div>
