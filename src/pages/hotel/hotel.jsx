@@ -86,10 +86,10 @@ const Hotel = () => {
           <h1 className="hotelTitle">Tower Street Apartments</h1>
           <div className="hotelAddress">
             <FontAwesomeIcon icon={faLocationDot} />
-            <span>Elton St 125 New york</span>
+            <span>Bole Addis Ababa</span>
           </div>
           <span className="hotelDistance">
-            Excellent location – 500m from center
+            Excellent location – 300m from center
           </span>
           <span className="hotelPriceHighlight">
             Book a stay over $114 at this property and get a free airport taxi
@@ -110,7 +110,7 @@ const Hotel = () => {
             <div className="hotelDetailsTexts">
               <h1 className="hotelTitle">Stay in the heart of City</h1>
               <p className="hotelDesc">
-                Located a 5-minute walk from Mekele Semaetat Castle in Mekele, Tower
+                Located a little walk from Bole Medhanealem Church in Addis Ababa, Tower
                 Street Apartments has accommodations with air conditioning and
                 free WiFi. The units come with hardwood floors and feature a
                 fully equipped kitchenette with a microwave, a flat-screen TV,
@@ -118,7 +118,7 @@ const Hotel = () => {
                 also offered, as well as an electric tea pot and a coffee
                 machine. Popular points of interest near the apartment include
                 Cloth Hall, Main Market Square and Town Hall Tower. The nearest
-                airport is Mekele Airport, 16.1 km
+                airport is Bole Airport, 16.1 km
                 from Tower Street Apartments, and the property offers a paid
                 airport shuttle service.
               </p>
@@ -126,8 +126,8 @@ const Hotel = () => {
             <div className="hotelDetailsPrice">
               <h1>Perfect for a 9-night stay!</h1>
               <span>
-                Located in the real heart of Krakow, this property has an
-                excellent location score of 9.8!
+                Located in the real heart of Addis Ababa, this property has an
+                excellent location score of 9!
               </span>
               <h2>
                 <b>$945</b> (9 nights)
