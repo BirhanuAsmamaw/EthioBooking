@@ -17,7 +17,7 @@ const PropertyList = () => {
             
                 <div className="pListTitles">
                     <h1>Hotels</h1>
-                    <h2>165 hotels</h2>
+                    <h2>160 hotels</h2>
                 </div>
             </div>
 
@@ -26,7 +26,7 @@ const PropertyList = () => {
             
                 <div className="pListTitles">
                     <h1>Villas</h1>
-                    <h2>128 hotels</h2>
+                    <h2>125 hotels</h2>
                 </div>
             </div>
 

@@ -17,7 +17,7 @@ const FeatureProperties = () => {
                 <img src="/assets/Hawassa-HaileResort.jpg" alt="" className="fpImg" /> 
                 <span className="fpName">Haile Resort</span>
                 <span className="fpCity">Hawassa</span>
-                <span className="fpPrice">Starting from <b>ETB 1400</b></span>
+                <span className="fpPrice">Starting from <b>ETB 1350</b></span>
                 <div className="fpRating">
                     <button className="fpRatingButton">8</button>
                     <span>Excellent</span>
