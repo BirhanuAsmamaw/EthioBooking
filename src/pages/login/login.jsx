@@ -2,6 +2,7 @@
 import "./login.css";
 import Navbar from "../../components/navbar/Navbar";
 import Footer from "../../components/footer/Footer";
+
 // import {faUser } from "@fortawesome/free-solid-svg-icons";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { Container } from './styles';
@@ -28,7 +29,7 @@ const Login = () => {
         <button type="submit">Sign in</button>
 
         <div>
-            <p>Don't have an account</p>
+            <p>Don't have an account <a href="#">Create Account</a></p>
         </div>
 
       </form>
