@@ -4,14 +4,14 @@
   box-sizing: border-box;
 } */
 
-body{
+/* body{
   font-family:  'Poppins', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
   background-color: green;
-}
+} */
 
 .wrapper{
   padding: 2px;
