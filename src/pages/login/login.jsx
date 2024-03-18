@@ -1,7 +1,7 @@
 
 import "./login.css";
-import Navbar from "../../components/navbar/Navbar";
-import Footer from "../../components/footer/Footer";
+// import Navbar from "../../components/navbar/Navbar";
+// import Footer from "../../components/footer/Footer";
 
 // import {faUser } from "@fortawesome/free-solid-svg-icons";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -17,19 +17,20 @@ const Login = () => {
             <input type="text"  placeholder="Username" />
             {/* <FontAwesomeIcon icon={faUser} /> */}
         </div>
-        <div>
+        <div className="input-box" 
+        >
             <input type="password" placeholder="Password"/>
         </div>
 
-        <div>
+        <div className="remember-forgot">
             <label htmlFor=""><input type="checkbox" />Remember me</label>
             <a href="#">Forgot password?</a>
         </div>
 
         <button type="submit">Sign in</button>
 
-        <div>
-            <p>Don't have an account <a href="#">Create Account</a></p>
+        <div className="create-account-link">
+            <p>Don't have an account yet? <a href="#">Create Account</a></p>
         </div>
 
       </form>
@@ -37,8 +38,8 @@ const Login = () => {
 
 
    {/* <Navbar/> */}
- 
-   <Footer />
+{/*  
+   <Footer /> */}
 
     </div>
     

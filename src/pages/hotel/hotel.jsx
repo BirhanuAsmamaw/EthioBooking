@@ -33,7 +33,7 @@ const Hotel = () => {
       src: "/assets/Plaza_Hotel.webp",
     },
     {
-      src: "/assets/Ivy_hote_bed_bisho.jpg",
+      src: "/assets/Hawassa.jpg",
     },
     
   ];

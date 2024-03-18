@@ -1,13 +1,11 @@
-import "./searchItem.css"
+import "./searchItem.css";
 
-const SearchItem= ({image}) => {
-    return(
-        <div className="searchItem">
-      <img
-        src={`/public/assets/Gondar-Goha.jpg`}
-        alt=""
-        className="siImg"
-      />
+const SearchItem = ({ id, image }) => {
+  return (
+    <div className="searchItem">
+      <a href={`hotels/${id}`}>
+        <img src={`/assets/${image}`} alt="" className="siImg" />
+      </a>
       <div className="siDesc">
         <h1 className="siTitle">Tower Street Apartments</h1>
         <span className="siDistance">500m from center</span>
@@ -35,7 +33,7 @@ const SearchItem= ({image}) => {
         </div>
       </div>
     </div>
-    )
-}
+  );
+};
 
-export default SearchItem
+export default SearchItem;

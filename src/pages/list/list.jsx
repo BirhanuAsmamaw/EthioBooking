@@ -9,10 +9,17 @@ import SearchItem from "../../components/searchItem/SearchItem";
 import MailList from "../../components/mailList/MailList";
 import Footer from "../../components/footer/Footer";
 
-const hotels = ["AA - Sheraton.webp","AA-intercontinental.jpg",
-                "Adma-MARRAKECH.jpg","Axum-Axum-Hotel.jpg",
-                "Bd-NileView.jpg","Hawassa-HaileResort.jpg",
-                "Gondar-Goha.jpg","DebreTabor-Hibret.jpg.crdownload"]
+const hotels = [
+  { id: 1, image: "AA - Sheraton.webp" },
+  { id: 2, image: "AA-intercontinental.jpg" },
+  { id: 3, image: "Adma-MARRAKECH.jpg" },
+  { id: 4, image: "Axum-Axum-Hotel.jpg" },
+  { id: 5, image: "Bd-NileView.jpg" },
+  { id: 6, image: "Hawassa-HaileResort.jpg" },
+  { id: 7, image: "Gondar-Goha.jpg" },
+  { id: 8, image: "Hawassa.jpg" }
+];
+
 
 const List = () => {
   
@@ -98,9 +105,9 @@ const List = () => {
             <button>Search</button>
           </div>
           <div className="listResult">
-              {hotels.map((hotel) => (
-                <SearchItem image={hotel} />
-              ))}
+          {hotels.map((hotel) => (
+                <SearchItem key={hotel.id} id={hotel.id} image={hotel.image} />
+            ))}
             </div>
         </div>
       </div>

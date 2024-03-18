@@ -1,4 +1,4 @@
-
+import React from 'react'
 import Feature from "../../components/feature/Feature";
 import FeatureProperties from "../../components/featureProperties/FeatureProperties";
 import Footer from "../../components/footer/Footer";
