@@ -70,7 +70,7 @@ const Header = ({type}) => {
             { type !== "list" ?             
             (<>
             <h1 className="headerTitle">A lifetime of discounts? It's Genius.</h1>
-            <p className="headerDesc">Get rewarded for your travels – unlock instant savings of 10% or
+            <p className="headerDesc">Get rewarded for your travels – unlock instant savings of 15% or
               more with a free Ethiobooking account.
               </p>
               <button className="headerBtn">Sign in / Register</button>
