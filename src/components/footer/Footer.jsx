@@ -20,7 +20,7 @@ const Footer = () => {
           <li className="fListItem">Hostels</li>
           <li className="fListItem">Guest houses</li>
         </ul>
-        <ul className="fList">
+        <ul className="fList">                
           <li className="fListItem">Unique places to stay </li>
           <li className="fListItem">Reviews</li>
           <li className="fListItem">Unpacked: Travel articles </li>
