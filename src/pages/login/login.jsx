@@ -15,7 +15,6 @@ const Login = () => {
         <h1>Sign In</h1>
         <div className="input-box">
             <input type="text"  placeholder="Username" />
-            {/* <FontAwesomeIcon icon={faUser} /> */}
         </div>
         <div className="input-box" 
         >
