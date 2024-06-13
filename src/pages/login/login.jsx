@@ -34,8 +34,6 @@ const Login = () => {
 
       </form>
     
-
-
    {/* <Navbar/> */}
 {/*  
    <Footer /> */}
