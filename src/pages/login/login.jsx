@@ -18,18 +18,15 @@ const Login = () => {
         >
             <input type="password" placeholder="Password"/>
         </div>
-
         <div className="remember-forgot">
             <label htmlFor=""><input type="checkbox" />Remember me</label>
             <a href="#">Forgot password?</a>
         </div>
-
         <button type="submit">Sign in</button>
 
         <div className="create-account-link">
             <p>Don't have an account yet? <a href="#">Create Account</a></p>
         </div>
-
       </form>
     
    {/* <Navbar/> */}
