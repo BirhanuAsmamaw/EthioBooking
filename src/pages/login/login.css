@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 } */
-
 /* body{
   font-family:  'Poppins', sans-serif;
   display: flex;
@@ -25,7 +24,6 @@
   border-radius: 10px;
   padding: 30px 40px;
 }
-
 .wrapper h1{
   font-size: 36px;
   text-align: center;
@@ -50,11 +48,9 @@
   padding: 0px 10px ;
 
 }
-
 .input-box input::placeholder{
  color: #fff;
 }
-
 /* .input-box .icon {
   position: relative;
   right: 20px;
