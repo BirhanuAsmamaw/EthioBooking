@@ -35,5 +35,4 @@ const SearchItem = ({ id, image }) => {
     </div>
   );
 };
-
 export default SearchItem;
