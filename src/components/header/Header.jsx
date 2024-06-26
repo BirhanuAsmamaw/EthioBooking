@@ -55,6 +55,7 @@ const Header = ({type}) => {
                 <span>Flights</span>
               </div>
               <div className="headerListItem">
+
                 <FontAwesomeIcon icon={faCar} />
                 <span>Car rentals</span>
               </div>
@@ -65,6 +66,7 @@ const Header = ({type}) => {
               <div className="headerListItem">
                 <FontAwesomeIcon icon={faTaxi} />
                 <span>Airport taxis</span>
+                
               </div>
             </div>
             { type !== "list" ?             
