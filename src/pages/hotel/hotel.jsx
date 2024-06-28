@@ -35,13 +35,11 @@ const Hotel = () => {
     {
       src: "/assets/Hawassa.jpg",
     },
-    
   ];
   const handleOpen = (i) => {
     setSlideNumber(i);
     setOpen(true);
   };
-
   const handleMove = (direction) => {
     let newSlideNumber;
 
