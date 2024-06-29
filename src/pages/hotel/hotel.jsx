@@ -103,6 +103,7 @@ const Hotel = () => {
               </div>
             ))}
           </div>
+          
           <div className="hotelDetails">
             <div className="hotelDetailsTexts">
               <h1 className="hotelTitle">Stay in the heart of City</h1>
