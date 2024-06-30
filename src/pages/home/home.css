@@ -3,8 +3,7 @@
     display: flex;
     gap: 30px;
     align-items: center;
-    flex-direction: column;
-    
+    flex-direction: column;  
 }
 .homeTitle{
     width: 1024px;
