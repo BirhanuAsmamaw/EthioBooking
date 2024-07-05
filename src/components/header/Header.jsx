@@ -9,7 +9,6 @@ import { format } from "date-fns";
 import { Link, useNavigate } from "react-router-dom";
 
 
-
 const Header = ({type}) => {
   const [destination, setDestination] = useState("");
   const [openDate, setOpenDate] = useState(false);
@@ -27,6 +26,7 @@ const Header = ({type}) => {
     room: 1,
   });
 
+  
   const navigate = useNavigate()
 
   const handleOption = (name, operation) =>{
