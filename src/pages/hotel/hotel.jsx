@@ -35,6 +35,7 @@ const Hotel = () => {
       src: "/assets/Hawassa.jpg",
     },
   ];
+  
   const handleOpen = (i) => {
     setSlideNumber(i);
     setOpen(true);
@@ -50,7 +51,6 @@ const Hotel = () => {
 
     setSlideNumber(newSlideNumber)
   };
-
   return (
     <div>
       <Header type="list" />
