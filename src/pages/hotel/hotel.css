@@ -5,7 +5,6 @@
   margin-top: 20px;
   overflow-x: hidden;
 }
-
 .hotelWrapper {
   width: 100%;
   max-width: 1024px;
@@ -37,7 +36,6 @@
   align-items: center;
   gap: 10px;
 }
-
 .hotelDistance {
   color: #0071c2;
   font-weight: 500;
@@ -87,7 +85,6 @@
   flex-direction: column;
   gap: 20px;
 }
-
 .hotelDetailsPrice > h1 {
   font-size: 18px;
   color: #555;
