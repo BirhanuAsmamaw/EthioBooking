@@ -51,6 +51,7 @@ const Hotel = () => {
 
     setSlideNumber(newSlideNumber)
   };
+
   return (
     <div>
       <Header type="list" />
@@ -76,6 +77,7 @@ const Hotel = () => {
               onClick={() => handleMove("r")}
             />
           </div>
+          
         )}
         <div className="hotelWrapper">
           <button className="bookNow">Reserve or Book Now!</button>
