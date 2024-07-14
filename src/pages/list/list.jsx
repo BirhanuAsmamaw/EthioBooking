@@ -20,7 +20,6 @@ const hotels = [
   { id: 7, image: "Gondar-Goha.jpg" },
   { id: 8, image: "Hawassa.jpg" }
 ];
-
 const List = () => {
   
   const location = useLocation()
