@@ -2,6 +2,7 @@ import "./featureProperties.css"
 
 const FeatureProperties = () => {
     return (
+        
         <div className="fp">
             <div className="fpItem">
                 <img src="/assets/AA - Sheraton.webp" alt="" className="fpImg" /> 
