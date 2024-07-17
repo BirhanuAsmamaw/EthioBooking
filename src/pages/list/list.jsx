@@ -1,4 +1,3 @@
-
 import "./list.css"
 import Header from '../../components/header/Header';
 import { useLocation } from "react-router-dom";
@@ -8,7 +7,6 @@ import { DateRange } from "react-date-range";
 import SearchItem from "../../components/searchItem/SearchItem";
 import MailList from "../../components/mailList/MailList";
 import Footer from "../../components/footer/Footer";
-
 
 const hotels = [
   { id: 1, image: "AA - Sheraton.webp" },
