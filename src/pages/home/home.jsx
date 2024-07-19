@@ -11,6 +11,7 @@ const Home = () => {
   return (
     
     <div>
+
       <Header/>
       <div className="homeContainer">
         <Feature/>
@@ -21,6 +22,7 @@ const Home = () => {
         <MailList/>
         <Footer/>
       </div>
+      
     </div>
   );   
 };
