@@ -8,7 +8,6 @@ import "./login.css";
 
 const Login = () => {
   return (
-    
     <div className="wrapper">
       <form action="">
         <h1>Sign In</h1>
@@ -41,7 +40,6 @@ const Login = () => {
 }
 
 export default Login;
-
 
 {/* Log in
 
