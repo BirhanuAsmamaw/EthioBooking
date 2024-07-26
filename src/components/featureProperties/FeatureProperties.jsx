@@ -42,9 +42,7 @@ const FeatureProperties = () => {
                     <button className="fpRatingButton">7</button>
                     <span>Excellent</span>
                 </div>
-            </div>
-            
-               
+            </div>    
         </div>
         
     )
