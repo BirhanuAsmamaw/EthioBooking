@@ -11,7 +11,6 @@ const Feature = () => {
               <h2> 200 properties</h2>
              </div>
             </div>
-           
             <div className="featureItem">
              <img src="/assets/Hawassa.jpg" alt="" className="featureImg" />
              <div className="featureTitles">
