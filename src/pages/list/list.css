@@ -33,7 +33,6 @@
   .lsItem>label{
     font-size: 12px;
   }
-  
   .lsItem>input{
     height: 30px;
     border: none;
@@ -47,7 +46,6 @@
     align-items: center;
     cursor: pointer;
   }
-  
   .lsOptions{
     padding: 10px;
   }
