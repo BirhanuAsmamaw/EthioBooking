@@ -21,7 +21,6 @@ import Login from "../pages/login/login"
     )
   );
 
-
   // export const router = createBrowserRouter([
   //   {
   //     path: "/",
