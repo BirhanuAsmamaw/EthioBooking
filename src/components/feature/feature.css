@@ -6,14 +6,12 @@
     gap: 20px;
     z-index: 1;
 }
-
 .featureItem{
     position: relative;
     color: white;
     border-radius: 10px;
     overflow: hidden;
 }
-
 .featureImg{
     width: 100%;
     object-fit: cover;
