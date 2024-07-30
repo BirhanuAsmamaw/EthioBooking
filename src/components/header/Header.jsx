@@ -28,7 +28,6 @@ const Header = ({type}) => {
 
   
   const navigate = useNavigate()
-
   const handleOption = (name, operation) =>{
     setOptions((prev) => {
       return {
