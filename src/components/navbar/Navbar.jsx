@@ -5,10 +5,8 @@ import { Link, useNavigate } from "react-router-dom";
 const Navbar = () => {
 
     const navigate = useNavigate()
-   
     const handleLogin = () => {
         navigate("/login");
-
     };
     return (
         <div className="navbar">
