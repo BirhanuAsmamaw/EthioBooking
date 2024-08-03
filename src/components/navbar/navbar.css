@@ -17,12 +17,10 @@
 .logo{
     font-weight: 500;
 }
-
 .navButton{
     margin-left: 20PX;
     border: none;
     padding: 5px 10px;
     cursor: pointer;
     color: blue;
-
 }
