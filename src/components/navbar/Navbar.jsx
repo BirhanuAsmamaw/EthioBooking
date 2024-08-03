@@ -13,10 +13,8 @@ const Navbar = () => {
             <div className="navContainer">
                 <span className="logo">Ethiobooking</span>
                 <div className="navItems">
-
                     <button className="navButton">Register</button>
                     <button className="navButton" onClick={handleLogin}>Login</button>
-                    
                 </div>
             </div>
        </div> 
