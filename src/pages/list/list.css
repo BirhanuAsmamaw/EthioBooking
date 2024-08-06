@@ -48,7 +48,6 @@
   .lsOptions{
     padding: 10px;
   }
-  
   .lsOptionItem{
     display: flex;
     justify-content: space-between;
@@ -59,7 +58,6 @@
   .lsOptionInput{
     width: 50px;
   }
-  
   .listSearch>button{
     padding: 10px;
     background-color: #0071c2;
@@ -69,7 +67,6 @@
     font-weight: 500;
     cursor: pointer;
   }
-
   .listResult {
     flex: 3;
   }
