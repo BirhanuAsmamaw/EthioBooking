@@ -47,11 +47,9 @@
   flex-wrap: wrap;
   justify-content: space-between;
 }
-
 .hotelImgWrapper {
   width: 33%;
 }
-
 .hotelImg {
   width: 100%;
   object-fit: cover;
