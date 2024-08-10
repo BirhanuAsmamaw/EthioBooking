@@ -8,7 +8,6 @@ import "./login.css";
 
 const Login = () => {
   return (
-
     <div className="wrapper">
       <form action="">
         <h1> Sign In </h1>
@@ -24,7 +23,6 @@ const Login = () => {
             <a href="#">Forgot password?</a>
         </div>
         <button type="submit">Sign in</button>
-
         <div className="create-account-link">
             <p>Don't have an account yet? <a href="#">Create Account</a></p>
         </div>
