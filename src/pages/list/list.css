@@ -55,9 +55,11 @@
     color: #555;
     font-size: 12px;
   }
+
   .lsOptionInput{
     width: 50px;
   }
+
   .listSearch>button{
     padding: 10px;
     background-color: #0071c2;
