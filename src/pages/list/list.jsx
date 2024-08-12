@@ -19,7 +19,6 @@ const hotels = [
   { id: 8, image: "Hawassa.jpg" }
 ];
 
-
 const List = () => {
   const location = useLocation()
   const [destination, setDestination] = useState(location.state?.destination);
@@ -114,4 +113,5 @@ const List = () => {
     </div>
   )
 }
+
 export  default List;
