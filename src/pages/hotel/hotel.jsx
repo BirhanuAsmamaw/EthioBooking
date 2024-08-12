@@ -48,7 +48,6 @@ const Hotel = () => {
     } else {
       newSlideNumber = slideNumber === 5 ? 0 : slideNumber + 1;
     }
-
     setSlideNumber(newSlideNumber)
   };
   
