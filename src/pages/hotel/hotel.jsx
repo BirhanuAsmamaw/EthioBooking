@@ -12,6 +12,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
 
+
 const Hotel = () => {
   const [slideNumber, setSlideNumber] = useState(0);
   const [open, setOpen] = useState(false);
@@ -40,6 +41,7 @@ const Hotel = () => {
     setSlideNumber(i);
     setOpen(true);
   };
+  
   const handleMove = (direction) => {
     let newSlideNumber;
 
