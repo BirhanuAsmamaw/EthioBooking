@@ -76,8 +76,7 @@ const Hotel = () => {
               className="arrow"
               onClick={() => handleMove("r")}
             />
-          </div>
-          
+          </div>  
         )}
         <div className="hotelWrapper">
           <button className="bookNow">Reserve or Book Now!</button>
@@ -86,6 +85,7 @@ const Hotel = () => {
             <FontAwesomeIcon icon={faLocationDot} />
             <span>Bole Addis Ababa</span>
           </div>
+
           <span className="hotelDistance">
             Excellent location – 300m from center
           </span>
