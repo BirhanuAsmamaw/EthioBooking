@@ -9,10 +9,10 @@ import "./home.css"
 
 const Home = () => {
   return (
-    
     <div>
       <Header/>
       <div className="homeContainer">
+        
         <Feature/>
         <h1 className="homeTitle">Browse by property type</h1>
         <PropertyList/>
@@ -20,6 +20,7 @@ const Home = () => {
         <FeatureProperties/>
         <MailList/>
         <Footer/>
+        
       </div>
       
     </div>
