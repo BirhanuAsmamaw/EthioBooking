@@ -8,7 +8,6 @@ import "./login.css";
 
 const Login = () => {
   return (
-    
     <div className="wrapper">
       <form action="">
         <h1> Sign In </h1>
@@ -28,12 +27,10 @@ const Login = () => {
             <p>Don't have an account yet? <a href="#">Create Account</a></p>
         </div>
       </form>
-    
    {/* <Navbar/> */}
 {/*  
    <Footer /> */}
     </div>
-     
   )
   
 }
