@@ -16,7 +16,6 @@ const Hotel = () => {
   const [slideNumber, setSlideNumber] = useState(0);
   const [open, setOpen] = useState(false);
   const photos = [
-    
     {
       src: "/assets/Ruth Hotel.jpg",
     },
@@ -44,7 +43,7 @@ const Hotel = () => {
   
   const handleMove = (direction) => {
     let newSlideNumber;
-
+    
     if (direction === "l") {
       newSlideNumber = slideNumber === 0 ? 5 : slideNumber - 1;
     } else {
