@@ -19,9 +19,7 @@ const Home = () => {
         <FeatureProperties/>
         <MailList/>
         <Footer/>
-        
       </div>
-      
     </div>
   );   
 };
