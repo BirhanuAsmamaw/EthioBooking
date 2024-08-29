@@ -49,14 +49,12 @@
 .input-box input::placeholder{
  color: #fff;
 }
-
 /* .input-box .icon {
   position: relative;
   right: 20px;
   top: 50%;
   transform: translateY(-50%);
 } */
-
 .wrapper .remember-forgot{
   display: flex;
   justify-content: space-between;
@@ -68,15 +66,13 @@
   accent-color: #fff;
   margin-right: 4px;
 }
-
 .remember-forgot a{
   color: #fff;
   text-decoration: none;
 }
 .remember-forgot a:hover{
   color: aqua;
-  text-decoration: underline;
-   
+  text-decoration: underline;   
 }
 .wrapper button{
   width: 100%;
