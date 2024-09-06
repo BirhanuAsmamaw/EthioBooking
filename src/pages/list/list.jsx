@@ -19,7 +19,6 @@ const hotels = [
   { id: 8, image: "Hawassa.jpg" }
 ];
 
-
 const List = () => {
   const location = useLocation()
   const [destination, setDestination] = useState(location.state?.destination);
@@ -30,7 +29,6 @@ const List = () => {
   return ( 
     <div>
       {/* <Navbar/> */}
-      
       <Header type={"list"}/>
       <div className="listContainer">
         <div className="listWrapper">
