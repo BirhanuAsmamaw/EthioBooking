@@ -26,9 +26,11 @@
   border-radius: 5px;
   cursor: pointer;
 }
+
 .hotelTitle {
   font-size: 24px;
 }
+
 .hotelAddress {
   font-size: 12px;
   display: flex;
