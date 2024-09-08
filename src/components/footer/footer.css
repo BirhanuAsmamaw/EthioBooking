@@ -3,16 +3,19 @@
     width: 1024px;
     font-size: 14px;
   }
+
   .fLists{
     width: 100%;
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
   } 
+
   .fList{
     list-style: none;
     padding: 0;
   }
+  
   .fListItem{
     margin-bottom: 10px;
     color: #003580;

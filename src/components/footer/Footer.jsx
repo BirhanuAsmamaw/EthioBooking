@@ -33,6 +33,7 @@ const Footer = () => {
           <li className="fListItem">Restaurant reservations </li>
           <li className="fListItem">Travel Agents </li>
         </ul>
+        
         <ul className="fList">
           <li className="fListItem">Curtomer Service</li>
           <li className="fListItem">Partner Help</li>
