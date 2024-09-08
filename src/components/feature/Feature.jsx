@@ -4,6 +4,7 @@ import "./feature.css"
 const Feature = () => {
     return (
         <div className="feature" >
+
             <div className="featureItem">
              <img src="/assets/Addis-Ababa-2022.png" alt="" className="featureImg" />
              <div className="featureTitles">
@@ -23,6 +24,7 @@ const Feature = () => {
              <div className="featureTitles">
               <h1>Bishoftu</h1>  
               <h2>180 properties</h2>
+              
              </div>
             </div>
         </div>
