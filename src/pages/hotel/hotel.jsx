@@ -16,7 +16,6 @@ const Hotel = () => {
   const [slideNumber, setSlideNumber] = useState(0);
   const [open, setOpen] = useState(false);
   const photos = [
-    
     {
       src: "/assets/Ruth Hotel.jpg",
     },
@@ -143,4 +142,5 @@ const Hotel = () => {
     </div>
   );
 };
+
 export default Hotel;
