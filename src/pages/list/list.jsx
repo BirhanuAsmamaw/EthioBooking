@@ -38,7 +38,7 @@ const List = () => {
               <label >Destination</label>
               <input  placeholder={destination} type="text" />
             </div>
-            
+          
             <div className="lsItem">
               <label > Check-in Date</label>
               {date ?( <span onClick={() => setOpenDate(!openDate)}>{`${format(
@@ -113,4 +113,5 @@ const List = () => {
     </div>
   )
 }
+
 export  default List;
