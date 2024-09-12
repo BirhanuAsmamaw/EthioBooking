@@ -15,6 +15,7 @@ import { useState } from "react";
 const Hotel = () => {
   const [slideNumber, setSlideNumber] = useState(0);
   const [open, setOpen] = useState(false);
+  
   const photos = [
     {
       src: "/assets/Ruth Hotel.jpg",
