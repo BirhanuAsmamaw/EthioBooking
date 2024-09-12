@@ -25,7 +25,6 @@
   border-radius: 5px;
   cursor: pointer;
 }
-
 .hotelTitle {
   font-size: 24px;
 }
@@ -97,7 +96,6 @@
   cursor: pointer;
   border-radius: 5px;
 }
-
 .slider{
   position: sticky;
   top: 0;
