@@ -9,7 +9,6 @@ import MailList from "../../components/mailList/MailList";
 import Footer from "../../components/footer/Footer";
 
 const hotels = [ 
-  
   { id: 1, image: "AA - Sheraton.webp" },
   { id: 2, image: "AA-intercontinental.jpg" },
   { id: 3, image: "Adma-MARRAKECH.jpg" },
