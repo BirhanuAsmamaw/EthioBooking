@@ -17,7 +17,6 @@ const Hotel = () => {
   const [open, setOpen] = useState(false);
   
   const photos = [
-    
     {
       src: "/assets/Ruth Hotel.jpg",
     },
