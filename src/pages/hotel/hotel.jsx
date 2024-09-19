@@ -52,7 +52,7 @@ const Hotel = () => {
     }
     setSlideNumber(newSlideNumber)
   };
-  
+
   return (
     <div>
       <Header type="list" />
