@@ -5,7 +5,6 @@
   margin-top: 20px;
   overflow-x: hidden;
 }
-
 .hotelWrapper {
   width: 100%;
   max-width: 1024px;
@@ -29,7 +28,6 @@
 .hotelTitle {
   font-size: 24px;
 }
-
 .hotelAddress {
   font-size: 12px;
   display: flex;
