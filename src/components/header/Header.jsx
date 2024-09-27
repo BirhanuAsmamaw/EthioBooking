@@ -8,7 +8,6 @@ import 'react-date-range/dist/theme/default.css';
 import { format } from "date-fns";
 import { Link, useNavigate } from "react-router-dom";
 
-
 const Header = ({type}) => {
   const [destination, setDestination] = useState("");
   const [openDate, setOpenDate] = useState(false);
@@ -19,6 +18,7 @@ const Header = ({type}) => {
       key: 'selection'
     },
   ]);
+  
   const [openOptions, setOpenOptions] = useState(false);
   const [options,setOptions] = useState({
     adult: 1,
