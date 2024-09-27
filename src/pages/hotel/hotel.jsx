@@ -15,8 +15,8 @@ import { useState } from "react";
 const Hotel = () => {
   const [slideNumber, setSlideNumber] = useState(0);
   const [open, setOpen] = useState(false);
+  
   const photos = [
-    
     {
       src: "/assets/Ruth Hotel.jpg",
     },
@@ -36,6 +36,7 @@ const Hotel = () => {
       src: "/assets/Hawassa.jpg",
     },
   ];
+
   
   const handleOpen = (i) => {
     setSlideNumber(i);
@@ -52,7 +53,7 @@ const Hotel = () => {
     }
     setSlideNumber(newSlideNumber)
   };
-  
+
   return (
     <div>
       <Header type="list" />
@@ -143,4 +144,5 @@ const Hotel = () => {
     </div>
   );
 };
+
 export default Hotel;

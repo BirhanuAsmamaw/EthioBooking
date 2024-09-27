@@ -8,8 +8,7 @@ import SearchItem from "../../components/searchItem/SearchItem";
 import MailList from "../../components/mailList/MailList";
 import Footer from "../../components/footer/Footer";
 
-const hotels = [
-  
+const hotels = [ 
   { id: 1, image: "AA - Sheraton.webp" },
   { id: 2, image: "AA-intercontinental.jpg" },
   { id: 3, image: "Adma-MARRAKECH.jpg" },
@@ -18,7 +17,6 @@ const hotels = [
   { id: 6, image: "Hawassa-HaileResort.jpg" },
   { id: 7, image: "Gondar-Goha.jpg" },
   { id: 8, image: "Hawassa.jpg" }
-  
 ];
 
 const List = () => {
@@ -40,7 +38,7 @@ const List = () => {
               <label >Destination</label>
               <input  placeholder={destination} type="text" />
             </div>
-            
+          
             <div className="lsItem">
               <label > Check-in Date</label>
               {date ?( <span onClick={() => setOpenDate(!openDate)}>{`${format(
@@ -115,6 +113,5 @@ const List = () => {
     </div>
   )
 }
-
 
 export  default List;

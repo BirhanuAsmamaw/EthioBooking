@@ -8,8 +8,7 @@ import PropertyList from "../../components/propertyList/propertyList";
 import "./home.css"
 
 const Home = () => {
-  return (
-    
+  return (  
     <div>
       <Header/>
       <div className="homeContainer">
@@ -22,7 +21,6 @@ const Home = () => {
         <Footer/>
       </div>
     </div>
-    
   );   
 };
 export default Home;
