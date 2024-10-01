@@ -11,6 +11,7 @@ const PropertyList = () => {
                     <h2>200 hotels</h2>
                 </div>
             </div>
+
             <div className="pListItem">
                 <img src="/assets/kuriftu-Bishoftu.jpg" alt="" className="pListImg" />
             
@@ -19,6 +20,7 @@ const PropertyList = () => {
                     <h2>160 hotels</h2>
                 </div>
             </div>
+            
             <div className="pListItem">
                 <img src="/assets/villas-Ethio.webp" alt="" className="pListImg" />
             
