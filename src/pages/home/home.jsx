@@ -7,6 +7,7 @@ import MailList from "../../components/mailList/MailList";
 import PropertyList from "../../components/propertyList/propertyList";
 import "./home.css"
 
+
 const Home = () => {
   return (  
     <div>
