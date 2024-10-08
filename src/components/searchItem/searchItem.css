@@ -19,12 +19,10 @@
     gap: 10px;
     flex: 2;
   }
-  
   .siTitle {
     font-size: 20px;
     color: #0071c2;
   }
-  
   .siDistance {
     font-size: 12px;
   }
@@ -44,25 +42,21 @@
   .siFeatures{
     font-size: 12px;
   }
-  
   .siCancelOp{
     font-size: 12px;
     color: #008009;
     font-weight: bold;
   }
-  
   .siCancelOpSubtitle{
     font-size: 12px;
     color: #008009;
   }
-  
   .siDetails {
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: space-between
   }
-  
   .siRating{
     display: flex;
     justify-content: space-between

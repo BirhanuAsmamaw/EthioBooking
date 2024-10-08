@@ -12,5 +12,4 @@ const MailList = () => {
     </div>
   )
 }
-
 export default MailList

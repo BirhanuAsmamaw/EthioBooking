@@ -2,6 +2,7 @@ import "./searchItem.css";
 
 const SearchItem = ({ id, image }) => {
   return (
+    
     <div className="searchItem">
       <a href={`hotels/${id}`}>
         <img src={`/assets/${image}`} alt="" className="siImg" />
@@ -21,6 +22,7 @@ const SearchItem = ({ id, image }) => {
           You can cancel later, so lock in this great price today!
         </span>
       </div>
+
       <div className="siDetails">
         <div className="siRating">
           <span>Excellent</span>
@@ -32,6 +34,7 @@ const SearchItem = ({ id, image }) => {
           <button className="siCheckButton">See availability</button>
         </div>
       </div>
+
     </div>
   );
 };
