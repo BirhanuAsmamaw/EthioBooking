@@ -18,20 +18,8 @@ import Login from "../pages/login/login"
         <Route path="login" element={<Login/>}/>
         <Route path="/hotels/:id" element={<Hotel/>}/>
       </Route>
-      
     )
   );
 
 
 
-  // export const router = createBrowserRouter([
-  //   {
-  //     path: "/",
-  //     element: <Home />,
-  //   },
-  //   {
-  //     path: "stays",
-  //     element: <Hotel />,
-  //   },
-  // ]);
-  
