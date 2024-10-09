@@ -9,7 +9,6 @@ import "./home.css"
 
 const Home = () => {
   return (  
-    
     <div>
       <Header/>
       <div className="homeContainer">
@@ -22,7 +21,6 @@ const Home = () => {
         <Footer/>
       </div>
     </div>
-    
   );   
 };
 
