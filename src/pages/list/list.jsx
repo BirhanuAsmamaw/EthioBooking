@@ -8,7 +8,6 @@ import SearchItem from "../../components/searchItem/SearchItem";
 import MailList from "../../components/mailList/MailList";
 import Footer from "../../components/footer/Footer";
 
-
 const hotels = [ 
   { id: 1, image: "AA - Sheraton.webp" },
   { id: 2, image: "AA-intercontinental.jpg" },
@@ -19,7 +18,6 @@ const hotels = [
   { id: 7, image: "Gondar-Goha.jpg" },
   { id: 8, image: "Hawassa.jpg" }
 ];
-
 
 const List = () => {
   const location = useLocation()
