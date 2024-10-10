@@ -3,12 +3,14 @@
     justify-content: center;
     margin-top: 20px;
   }
+
   .listWrapper {
     width: 100%;
     max-width: 1024px;
     display: flex;
     gap: 20px;
   }
+
   .listSearch {
     flex: 1;
     background-color: #febb02;
@@ -24,6 +26,7 @@
     color: #555;
     margin-bottom: 10px;
   }
+
   .lsItem{
     display: flex;
     flex-direction: column;
