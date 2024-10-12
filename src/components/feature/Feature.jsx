@@ -24,7 +24,6 @@ const Feature = () => {
              <div className="featureTitles">
               <h1>Bishoftu</h1>  
               <h2>180 properties</h2>
-              
              </div>
             </div>
         </div>
