@@ -14,16 +14,14 @@ const PropertyList = () => {
 
             <div className="pListItem">
                 <img src="/assets/kuriftu-Bishoftu.jpg" alt="" className="pListImg" />
-            
                 <div className="pListTitles">
                     <h1>Hotels</h1>
                     <h2>160 hotels</h2>
                 </div>
             </div>
-            
+
             <div className="pListItem">
                 <img src="/assets/villas-Ethio.webp" alt="" className="pListImg" />
-            
                 <div className="pListTitles">
                     <h1>Villas</h1>
                     <h2>135hotels</h2>
@@ -32,7 +30,6 @@ const PropertyList = () => {
 
             <div className="pListItem">
                 <img src="/assets/Sheraton-Addis-Fountain.jpg" alt="" className="pListImg" />
-            
                 <div className="pListTitles">
                     <h1>Apartments</h1>
                     <h2>180 hotels</h2>
