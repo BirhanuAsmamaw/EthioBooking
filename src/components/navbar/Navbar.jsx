@@ -10,7 +10,6 @@ const Navbar = () => {
     };
     return (
         <div className="navbar">
-
             <div className="navContainer">
                 <span className="logo">Ethiobooking</span>
                 <div className="navItems">
