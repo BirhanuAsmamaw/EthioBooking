@@ -18,14 +18,12 @@ const Header = ({type}) => {
       key: 'selection'
     },
   ]);
-  
   const [openOptions, setOpenOptions] = useState(false);
   const [options,setOptions] = useState({
     adult: 1,
     Children: 0,
     room: 1,
   });
-
   const navigate = useNavigate()
   const handleOption = (name, operation) =>{
     setOptions((prev) => {
@@ -35,7 +33,6 @@ const Header = ({type}) => {
       };
     });
   };
-
   const handleSearch = () => {
     navigate("/hotels", {state: {destination,date,options} });
   };
