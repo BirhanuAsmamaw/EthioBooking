@@ -4,7 +4,6 @@ import "./feature.css"
 const Feature = () => {
     return (
         <div className="feature" >
-
             <div className="featureItem">
              <img src="/assets/Addis-Ababa-2022.png" alt="" className="featureImg" />
              <div className="featureTitles">

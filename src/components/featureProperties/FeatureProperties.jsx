@@ -47,5 +47,4 @@ const FeatureProperties = () => {
         
     )
 }
-
 export default FeatureProperties;
